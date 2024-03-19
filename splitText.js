@@ -8,7 +8,7 @@
  * @author: Jack Doyle, jack@greensock.com
 */
 /* eslint-disable */
-/* import { emojiExp, getText } from "./utils/strings.js"; */
+import { emojiExp, getText } from "./utils/strings.js";
 
 let _doc, _win, _coreInitted, gsap, _context, _toArray,
 	_stripExp = /(?:\r|\n|\t\t)/g, //find carriage returns, new line feeds and double-tabs.
